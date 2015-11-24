@@ -21,6 +21,7 @@ var UserSchema = new Schema({
 });
 
 
+
 // MIDDLEWARE
 UserSchema.pre('save', function(next){
   // set a created_at and update updated_at
